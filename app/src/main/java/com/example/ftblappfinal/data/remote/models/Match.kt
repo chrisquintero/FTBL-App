@@ -1,0 +1,33 @@
+package com.example.ftblappfinal.data.remote.models
+
+data class Match(
+    val added: String,
+    val away_id: Int,
+    val away_name: String,
+    val competition_id: Int,
+    val competition_name: String,
+    val country: Country,
+    val et_score: String,
+    val events: String,
+    val federation: Any,
+    val fixture_id: Int,
+    val ft_score: String,
+    val h2h: String,
+    val has_lineups: Boolean,
+    val home_id: Int,
+    val home_name: String,
+    val ht_score: String,
+    val id: Int,
+    val last_changed: String,
+    val league_id: Int,
+    val league_name: String,
+    val location: String,
+    val odds: Odds,
+    val outcomes: Outcomes,
+    val ps_score: String,
+    val scheduled: String,
+    val score: String,
+    val status: String,
+    val time: String,
+    val date: String
+)
